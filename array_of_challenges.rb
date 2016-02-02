@@ -1,9 +1,8 @@
 #Line up Alphabetically 
 	#Sort all the names in this array alphabetically
 	star_students = [ "Tara", "Rahul", "Liza", "Charlie", "Remy", "Dean", "Reis", "Holden", "Andrew"]
-	star_students.sort_by {|name| name.downcase}
+	star_students.sort_by! {|name| name.downcase}
 
-puts star_students[2]
 	#create a new array that has 19 elements of only your name as a string
 		#(hint: There is a way do this with only typing the string once)
 	my_array = []
@@ -19,7 +18,7 @@ puts star_students[2]
 	brilliant_students = ["James", "Annika", "Ned", "Alden", "Daniel", "Ben", "Luke", "Jackson"]
 
 	all_students = star_students + brilliant_students
-	all_students.sort_by {|name| name.downcase}
+	all_students.sort_by! {|name| name.downcase}
 	
 	#BONUS
 		#Iterate through the final student array, printing each student with an adjective
