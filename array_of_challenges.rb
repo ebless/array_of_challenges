@@ -5,7 +5,7 @@
 
 	#create a new array that has 19 elements of only your name as a string
 		#(hint: There is a way do this with only typing the string once)
-	my_array = Array.fill(19, "Ned")
+	my_array = Array.new(19, "Ned")
 	puts my_array
 
 
