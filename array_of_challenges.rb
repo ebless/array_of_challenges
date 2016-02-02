@@ -5,10 +5,8 @@
 
 	#create a new array that has 19 elements of only your name as a string
 		#(hint: There is a way do this with only typing the string once)
-	my_array = []
-	19.times do 
-		my_array << "Ned"
-	end
+	my_array = Array.fill(19, "Ned")
+	puts my_array
 
 
 	#That first array, star_students and this array, brilliant_students, should be one big array!
